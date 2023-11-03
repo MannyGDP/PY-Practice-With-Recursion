@@ -1,7 +1,7 @@
 def count_down(n):
 
   # Base case
-  if n==0:
+  if n == 0:
       return 0
 
   # Recursive case
@@ -10,5 +10,5 @@ def count_down(n):
       count_down(n-1)
 
 # test case
-n=8
-count_down(n)
+n=10
+print (count_down(n))
